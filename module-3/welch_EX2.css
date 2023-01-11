@@ -5,7 +5,7 @@ body {
     font-size: 16px;
 }
 p {
-    font-family: "Quattrocento", "Georgia", “Times New Roman” serif;
+    font-family: "Quattrocento", "Georgia", 'Times New Roman', serif;
     font-weight: 400;
     line-height: 1.4em;
 }
@@ -30,7 +30,7 @@ h2 {
     padding-top: 15px;
 }
 address {
-    font-family:  "Quattrocento", Georgia, “Times New Roman” serif;
+    font-family:  "Quattrocento", Georgia, 'Times New Roman', serif;
     text-align: center;
 }
 address.a {
@@ -39,7 +39,7 @@ address.a {
     color: #4f3674;
     text-decoration: none;
 }
-address.a:hover, address.a:visited {
+address a:hover, a:visited{
     background-color: #d6a800;
     text-decoration: underline;
 }
