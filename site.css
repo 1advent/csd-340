@@ -17,10 +17,13 @@ a {
     color: #453674;
     text-decoration: none;
 }
-a :hover {
-    background-color: #d6a800;
-    color: #473674;
+a:link{
+    color: #453674;
 }
-a :visited {
-    color: #3c275a;
+a:visited {
+    color: #3C275A;
+}
+a:hover {
+    background-color: #D6A800;
+    color: #4F3674;
 }
