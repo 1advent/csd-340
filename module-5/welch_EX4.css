@@ -22,7 +22,7 @@ img {
 }
 figure {
     text-align: center;
-    list-style-position: ;
+    list-style-position: inside;
 }
 figcaption {
     font-family: "Oswald", Verdana, Arial, sans-serif;
