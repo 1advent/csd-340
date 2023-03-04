@@ -1,68 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Joshua Welch About Page</title>
-        <link rel="stylesheet" href="site.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="header">
-            <h1>Joshua Welch</h1>
-            <h2>About Me</h2>
+
+<head>
+    <title>Joshua Welch About Page</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Quattrocento:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="myBioSite" >
+    <div class="header">
+        <h1>Joshua Welch</h1>
+        <h2>About Me</h2>
+    </div>
+    <div id="container">
+        <div id="left" class="bigCard">
+            <div class="big-card-title">Hobbies</div>
+            <div class="card">
+                <div class="card-title">Diablo</div>
+                <div class="card-content">
+                    <img src="./images/hobbies/diablo.jpg" alt="diablo">
+                    <p>I love RPGs, and I really like playing Diablo.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">Fixing Things</div>
+                <div class="card-content">
+                    <img src="./images/hobbies/fixingthings.jpg" alt="fixing things">
+                    <p>I am pretty good at fixing things, and I enjoy it.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">Programming</div>
+                <div class="card-content">
+                    <img src="./images/hobbies/programming.jpg" alt="programming">
+                    <p>I like to program, and have done it for years.</p>
+                </div>
+            </div>
         </div>
-        <div id="container">
-            <div class="bigCard">
-                <div card-title>Hobbies</div>
-                <div class="card">
-                    <div class="card-title">Diablo</div>
-                    <div class="card-content">
-                        <img src="./images/hobbies/diablo.jpg" alt="diablo">
-                        <p>I love RPGs, and I really like playing Diablo.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-title">Diablo</div>
-                    <div class="card-content">
-                        <img src="./images/hobbies/fixingthings.jpg" alt="fixing things">
-                        <p>I am pretty good at fixing things, and I enjoy it.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-title">Diablo</div>
-                    <div class="card-content">
-                        <img src="./images/hobbies/programming.jpg" alt="programming">
-                        <p>I like to program, and have done it for years.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="bigCard">
-                <div card-title>Experience</div>
-                <div class="card">
-                    <div class="card-title">Diablo</div>
-                    <div class="card-content">
-                        <img src="./images/experience/cooking.jpg" alt="cooking">
-                        <p>I like cooking. I just made corned beef. Like just now.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-title">Diablo</div>
-                    <div class="card-content">
-                        <img src="./images/experience/vendingmachines.jpg" alt="Vending machines">
-                        <p>I own and operate multiple vending machines.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-title">Diablo</div>
-                    <div class="card-content">
-                        <img src="./images/experience/website.jpg" alt="websites">
-                        <p>I have made many websites, some are still in use today.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="bigCard">
-                <div card-title>Contact</div>
+        <div id="right" class="bigCard">
+            <div class="big-card-title">Contact</div>
+            <div class="card-content">
                 <div id="contact">
-                    <form>
+                    <form action="mailto:oneadvent@joshuawelch.me" method="post" enctype="text/plain">
                         <label for="fname">First Name</label>
                         <input type="text" id="fname" name="fname">
                         <label for="lname">Last Name</label>
@@ -73,8 +56,33 @@
                     </form>
                 </div>
             </div>
-        </div> 
-        <div class="footer">
-            <p>Joshua Welch &copy; 2021</p>
         </div>
-    </body>
+        <div id="left" class="bigCard">
+            <div class="big-card-title">Experience</div>
+            <div class="card">
+                <div class="card-title">Cooking</div>
+                <div class="card-content">
+                    <img src="./images/experience/cooking.jpg" alt="cooking">
+                    <p>I like cooking. I just made corned beef. Like just now.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">Vending Machines</div>
+                <div class="card-content">
+                    <img src="./images/experience/vendingmachines.jpg" alt="Vending machines">
+                    <p>I own and operate multiple vending machines.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">Websites</div>
+                <div class="card-content">
+                    <img src="./images/experience/website.jpg" alt="websites">
+                    <p>I have made many websites, some are still in use today.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Joshua Welch &copy; 2021</p>
+    </div>
+</body>

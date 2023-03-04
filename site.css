@@ -5,6 +5,7 @@ body {
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
+    padding-bottom: 20px; 
 }
 h1, h2, h3, h4 {
     background-color: #3c275a;
@@ -12,6 +13,7 @@ h1, h2, h3, h4 {
     border-width: 1px;
     border: #d6a800;
     padding: 10px;
+    border-radius: 10px;
 }
 a {
     color: #453674;
@@ -31,10 +33,18 @@ a:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     float: left;
-    width: 30%;
+    width: calc(30% - 20px);
+    padding-right: 10px;
+    margin: 17px;
 }
 .card-title {
     text-align: center;
+    color: #444444;
+    font-size: 1em;
+    font-weight: 400;
+}
+.big-card-title {
+    text-align: left;
     color: #444444;
     font-size: 2em;
     font-weight: 400;
@@ -42,17 +52,46 @@ a:hover {
 .card-content {
     padding: 2px 16px;
 }
+.card-content img {
+    width: 100%;
+}
 .bigCard {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     float: left;
-    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.clear {
+    clear: both;
 }
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width:100%;
-    height:40px;   /* Height of the footer */
-    background:#6cf;
+    clear: both;
+    text-align: center;
+    background-color: #3c275a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
 }
+#left {
+    float: left;
+    width: 75%;
+}
+#right {
+    float: right;
+    width: 20%;
+    padding-bottom:10px;
+}
+.myBioSite::after {
+        background: url(./images/img_0011.jpg);
+        content: "";
+        opacity: .5;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: -1;
+        background-size: cover;
+        background-repeat: repeat-y;
+      }
